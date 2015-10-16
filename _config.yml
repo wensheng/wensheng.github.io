@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               文胜的博客
+tagline:             乱七八糟的东西，主要是编程
+url:                 http://c.wensheng.org/
 paginate:            1
 baseurl:             ""
 
@@ -20,11 +20,16 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Wensheng Wang
+  url:               http://wensheng.org/
+  email:             wenshengwang@gmail.com
 
 # Custom vars
 version:             2.0.0
 github:
-  repo:              https://github.com/poole/poole
+  repo:              https://github.com/wensheng/wensheng.github.io
+
+pages_list:
+  关于: '/about'
+  归档: '/archive'
+  Feed: '/atom.xml'
