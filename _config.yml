@@ -48,11 +48,5 @@ author:
   email:             wenshengwang@gmail.com
 
 # Custom vars
-version:             2.0.0
-github:
+version:             0.1
   repo:              https://github.com/wensheng/wensheng.github.io
-
-pages_list:
-  关于: '/about'
-  归档: '/archive'
-  Feed: '/atom.xml'
