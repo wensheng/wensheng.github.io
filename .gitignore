@@ -1,3 +1,5 @@
+Gemfile.lock
+
 # Ignore docs files
 _gh_pages
 _site
@@ -29,10 +31,6 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 .idea
-
-# Komodo
-*.komodoproject
-.komodotools
 
 # grunt-html-validation
 validation-status.json

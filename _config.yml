@@ -5,11 +5,34 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               文胜的博客
+title:               Wensheng·文胜
 tagline:             乱七八糟的东西，主要是编程
-url:                 http://c.wensheng.org/
-paginate:            1
+#url:                 http://c.wensheng.org/
+url:                 ""
+paginate:            10
+paginate_path:       ":num"
 baseurl:             ""
+github_username:     "wensheng"
+disqus_shortname:    "wenshengw"
+
+markdown: redcarpet
+redcarpet:
+  extensions: [
+   "no_intra_emphasis"
+   ,"fenced_code_blocks"
+   ,"autolink"
+   ,"tables"
+   ,"strikethrough"
+   ,"superscript"
+   ,"with_toc_data"
+   ,"footnotes"
+   ,"highlight"
+   ,"underline"
+   ,"quote"
+   ,"lax_spacing"
+   ,"prettify"
+#   ,"html_toc"
+  ]
 
 # Assets
 #
