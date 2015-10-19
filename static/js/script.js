@@ -6,10 +6,9 @@
  * 页面ready方法
  */
 $(document).ready(function() {
-    //search();
+    search();
 });
 
-/*
 function search(){
     (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
         (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
@@ -18,9 +17,3 @@ function search(){
 
     _st('install','{{site.swiftype_searchId}}','2.0.0');
 }
-*/
-
-
-
-
-

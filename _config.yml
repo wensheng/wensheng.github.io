@@ -14,6 +14,7 @@ paginate_path:       ":num"
 baseurl:             ""
 github_username:     "wensheng"
 disqus_shortname:    "wenshengw"
+swiftype_searchId:   "i_VqsaTge1pYJWYxFtAz"
 
 markdown: redcarpet
 redcarpet:
