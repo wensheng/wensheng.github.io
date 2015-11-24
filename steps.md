@@ -12,6 +12,17 @@
     cd myblog
     bundle install
 
+## Create post and publish
+
+    vi _posts/date-title.md
+
 ## Serve locally
 
     bundle exec jekyll serve
+    # check blog at localhost:3000, if all good, proceed to next step
+
+## Create post and publish
+
+    git add _posts/date-title.md
+    git commit -a -m 'comment'
+    git push
