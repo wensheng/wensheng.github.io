@@ -166,3 +166,7 @@
     -ms-user-select: none;
     user-select: none;
 }
+
+p {
+  word-break: normal;
+}
