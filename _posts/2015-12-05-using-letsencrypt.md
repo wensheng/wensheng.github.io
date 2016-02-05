@@ -3,6 +3,12 @@ layout: post
 title: Using Letsencrypt
 ---
 
+*update:* Because of API change, the command line now should have additional '-f account_key.json'.
+
+The full example command is: 
+
+    $simp_le -d example.com:/var/www/sites/example_com/server -f key.pem -f cert.pem -f fullchain.pem -f account_key.json
+
 [Let's Encrypt](https://letsencrypt.org/) entered public beta 2 days ago. It also happened that I have a SSL certificate that just expired a few days ago.  I took this opportunity to try out LetsEncrypt.
 
 Let's Encrypt basically use ACME protocol to validate you own(and have control of) the domain, then issue you SSL certificate.
