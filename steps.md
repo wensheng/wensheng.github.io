@@ -2,9 +2,14 @@
 
 ## Install dependencies
 
-    sudo apt-get install ruby2.0 ruby2.0-dev
-    sudo gem2.0 sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
-    sudo gem2.0 install bundler
+activerecord 5 requires ruby >= 2.2.2
+
+    sudo apt-add-repository ppa:brightbox/ruby-ng
+    sudo apt-get update
+    sudo apt-get install ruby2.2 ruby2.2-dev
+    ruby2.2 -v  # shows 2.2.5
+    sudo gem2.2 sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
+    sudo gem2.2 install bundler
 
 ## Clone repo and install gh-pages
 
