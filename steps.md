@@ -4,8 +4,10 @@
 
 activerecord 5 requires ruby >= 2.2.2
 
+    sudo apt-get install python-software-properties
     sudo apt-add-repository ppa:brightbox/ruby-ng
     sudo apt-get update
+    sudo apt-get purge ruby1.9
     sudo apt-get install ruby2.2 ruby2.2-dev
     ruby2.2 -v  # shows 2.2.5
     sudo gem2.2 sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
