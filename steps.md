@@ -10,7 +10,7 @@ activerecord 5 requires ruby >= 2.2.2
     sudo apt-get purge ruby1.9
     sudo apt-get install ruby2.2 ruby2.2-dev
     ruby2.2 -v  # shows 2.2.5
-    sudo gem2.2 sources --add https://ruby.taobao.org/ --remove https://rubygems.org/
+    #sudo gem2.2 sources --add https://ruby.taobao.org/ --remove https://rubygems.org/  # only if inside china
     sudo gem2.2 install bundler
 
 ## Clone repo and install gh-pages
@@ -26,7 +26,7 @@ activerecord 5 requires ruby >= 2.2.2
 ## Serve locally
 
     bundle exec jekyll serve
-    # check blog at localhost:3000, if all good, proceed to next step
+    # check blog at localhost:4000, if all good, proceed to next step
 
 ## Create post and publish
 
