@@ -17,25 +17,6 @@ github_username:     "wensheng"
 disqus_shortname:    "wenshengw"
 swiftype_searchId:   "i_VqsaTge1pYJWYxFtAz"
 
-markdown: redcarpet
-redcarpet:
-  extensions: [
-   "no_intra_emphasis"
-   ,"fenced_code_blocks"
-   ,"autolink"
-   ,"tables"
-   ,"strikethrough"
-   ,"superscript"
-   ,"with_toc_data"
-   ,"footnotes"
-   ,"highlight"
-   ,"underline"
-   ,"quote"
-   ,"lax_spacing"
-   ,"prettify"
-#   ,"html_toc"
-  ]
-
 # Assets
 #
 # We specify the directory for Jekyll so we can use @imports.
