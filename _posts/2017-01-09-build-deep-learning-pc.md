@@ -156,6 +156,9 @@ Motherboard, PSU, CPU, graphic cards, memories:
 Rest of parts, CPU cooler, blue-ray burner, hard-disk, SSD, M.2 Wifi card, fans:
 [<img src="/static/photos/computer2.jpg">](/static/photos/IMG_0285.JPG)
 
+fan, software:
+[<img src="/static/photos/266s.jpg">](/static/photos/266.JPG)
+
 In its full glory:
 [<img src="/static/photos/computer3.jpg">](/static/photos/IMG_0276.JPG)
 No, I did not do a good job of cable management.
