@@ -65,9 +65,9 @@ Here is the part list:
   <tr>
     <td>video card</td>
     <td>Gigabyte GTX1080 G1 Gaming</td>
-    <td>2</td>
-    <td>9998</td>
-    <td>1180</td>
+    <td>3</td>
+    <td>14997</td>
+    <td>1770</td>
   </tr>
   <tr>
     <td>Hard Disk 1</td>
@@ -136,8 +136,8 @@ Here is the part list:
     <td> </td>
     <td> </td>
     <td>total</td>
-    <td>￥30269</td>
-    <td>$3802</td>
+    <td>￥35268</td>
+    <td>$4392</td>
   </tr>
   </tbody>
 </table>
@@ -160,7 +160,7 @@ fan, software:
 [<img src="/static/photos/266s.jpg">](/static/photos/266.JPG)
 
 In its full glory:
-[<img src="/static/photos/computer3.jpg">](/static/photos/IMG_0276.JPG)
+[<img src="/static/photos/136s.jpg">](/static/photos/136.JPG)
 No, I did not do a good job of cable management.
 
 This thing is huuuge, here show the size comparison with a regular mid tower.
