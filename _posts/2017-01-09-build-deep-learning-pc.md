@@ -15,7 +15,7 @@ Here is the part list:
     <th>name</th>
     <th>brand/model/desc</th>
     <th>#</th>
-    <th>人民币 ￥</th>
+    <th>CNY ￥</th>
     <th>USD $</th>
   </tr>
   </thead>
@@ -51,9 +51,9 @@ Here is the part list:
   <tr>
     <td>RAM 1</td>
     <td>Kingston HyperX Fury DDR4 2400 32G (16Gx2) kit</td>
-    <td>1</td>
-    <td>1699</td>
-    <td>224</td>
+    <td>3</td>
+    <td>5097</td>
+    <td>672</td>
   </tr>
   <tr>
     <td>RAM 2</td>
@@ -136,8 +136,8 @@ Here is the part list:
     <td> </td>
     <td> </td>
     <td>total</td>
-    <td>￥35268</td>
-    <td>$4392</td>
+    <td>￥38666</td>
+    <td>$4840</td>
   </tr>
   </tbody>
 </table>
@@ -161,7 +161,7 @@ fan, software:
 
 In its full glory:
 [<img src="/static/photos/136s.jpg">](/static/photos/136.JPG)
-No, I did not do a good job of cable management.
+No, I did not do a good job of cable management as you can see above.
 
-This thing is huuuge, here show the size comparison with a regular mid tower.
+This thing is huuuge, here shows the size comparison with a regular mid tower.
 [<img src="/static/photos/computer4.jpg">](/static/photos/IMG_0240.JPG)
