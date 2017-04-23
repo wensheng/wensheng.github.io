@@ -1,7 +1,42 @@
 <div class="scriptHub">
-  <script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.11.3/jquery.js"></script>
-  <script type="text/javascript" src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="{{'/static/js/script.js' | prepend:site.baseurl | prepend: site.url  }}"></script>
+  <!--script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/1.11.3/jquery.js"></script>
+  <script type="text/javascript" src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script-->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.12.4.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"></script>
+  <script>
+    var ghissueid = parseInt("{{ page.ghissueid }}");
+    if(!isNaN(ghissueid)){
+      var url = "https://github.com/wensheng/wensheng.github.io/issues/" + ghissueid;
+      var api_url = "https://api.github.com/repos/wensheng/wensheng.github.io/issues/" + ghissueid + "/comments";
+
+      $(document).ready(function () {
+        $.ajax(api_url, {
+          headers: {Accept: "application/vnd.github.v3.html+json"},
+          dataType: "json",
+          success: function(comments) {
+            $("#gh-comments-list").append("Visit the <b><a href='" + url + "'>Github Issue</a></b> to comment on this post");
+            $.each(comments, function(i, comment) {
+
+                var date = new Date(comment.created_at);
+
+                var t = "<div id='gh-comment'>";
+                t += "<img src='" + comment.user.avatar_url + "' width='24px'>";
+                t += "<b><a href='" + comment.user.html_url + "'>" + comment.user.login + "</a></b>";
+                t += " posted at ";
+                t += "<em>" + date.toUTCString() + "</em>";
+                t += "<div id='gh-comment-hr'></div>";
+                t += comment.body_html;
+                t += "</div>";
+                $("#gh-comments-list").append(t);
+            });
+          },
+          error: function() {
+            $("#gh-comments-list").append("Comments are not open for this post yet.");
+          }
+        });
+      });
+    }
+  </script>
   {% for script in page.scripts %}
   <script type="text/javascript" src="{{'/static/js/' | prepend:site.baseurl | append: script | prepend: site.url }}"></script>
   {% endfor %}
