@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Using PositiveSSL on Haproxy
+tags: ssl haproxy https
 ---
 
 I wrote about using PositiveSSL with Nginx [before](http://blog.wensheng.org/2012/03/using-namecheap-ssl-with-nginx.html).
@@ -17,3 +18,9 @@ For Haproxy, we need to concatenate these two file with the private key file, bu
 ```
 
 Then put example.com.crt in to the directory that`s specified by Haproxy configuration file and restart Haproxy.
+
+(Update 2015-05) I got a new Positive ssl cert, but this time I got different files. The concatenation step now looks like:
+
+```bash
+    cat example_com.crt COMODORSADomainValidationSecureServerCA.crt COMODORSAAddTrustCA.crt AddTrustExternalCARoot.crt example.com.key.nopass > example.com.crt
+```
