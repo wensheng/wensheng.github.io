@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Installing OpenJDK8
+tags: java jdk linux
 ---
 
 Needed to do a project in Java8, here's how to install openjdk8:

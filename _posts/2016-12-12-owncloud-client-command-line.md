@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Use ownCloud linux command line client
+tags: owncloud backup linux
 ---
 
 I use Linux, but rarely its desktop.  I mostly just use command line. OwnCloud provides a command line program: owncloudcmd. Here are the steps to set it up and use it.
