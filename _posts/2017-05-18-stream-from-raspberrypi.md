@@ -6,8 +6,6 @@ ghissueid: 5
 
 ## Pre-requisites
 
-RaspberryPi: >= 2
-
 OS: Raspbian >= 8
 
 Do `sudo raspi-config` and enable PiCamera, in 'Memory Split', give GPU more than 128M of memory.  Connect PiCamera, reboot.
@@ -115,7 +113,7 @@ Install dependencies:
 
 Build gst-rpicamsrc:
 
-    git clone https://github.com/thaytan/gsp-rpicamsrc.git
+    git clone https://github.com/thaytan/gst-rpicamsrc.git
     cd gst-rpicamsrc/
     ./autogen.sh --prefix=/usr --libdir=/usr/lib/arm-linux-gnueabihf/
     make
@@ -131,4 +129,4 @@ gst-launch-1.0 -v rpicamsrc \
  ! rtmpsink location="rtmp://yourstreamserver/live/pi"
 ```
 
-The stream from this method has much lower delay compared with method 3.  It's still much slower than method 1 and 2.  But method 3 and 4 output RTMP streams which can be viewed in a browser (using for example JWPlayer).
+The stream from this method has much lower delay compared with method 3.  It's still much slower than method 1 and 2.  This is because it send stream to a RTMP server, you request stream from the server, In method 1/2, the stream is sent directly to you from RPi.  The streams from method 3/4 can be viewed in a browser (using for example JWPlayer), while the streams from method 1/2 can't.
