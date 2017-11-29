@@ -4,6 +4,8 @@
 
 activerecord 5 requires ruby >= 2.2.2
 
+(for Ubuntu <16.04):
+
     sudo apt-get install python-software-properties
     sudo apt-add-repository ppa:brightbox/ruby-ng
     sudo apt-get update
@@ -12,6 +14,11 @@ activerecord 5 requires ruby >= 2.2.2
     ruby2.2 -v  # shows 2.2.5
     #sudo gem2.2 sources --add https://ruby.taobao.org/ --remove https://rubygems.org/  # only if inside china
     sudo gem2.2 install bundler
+
+(Ubuntu >16.04 come with ruby 2.3):
+
+    sudo apt install ruby ruby-dev libffi-dev libz-dev libxml2-dev
+    sudo gem install bundler
 
 ## Clone repo and install gh-pages
 
