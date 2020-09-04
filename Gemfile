@@ -1,7 +1,4 @@
-source 'https://rubygems.org'
-#in china, comment above uncomment below
-#source 'https://ruby.taobao.org'
-gem 'github-pages'
-gem 'redcarpet'
-gem 'jekyll-paginate'
+source "https://rubygems.org"
 
+# gem "github-pages", group: :jekyll_plugins
+gemspec
